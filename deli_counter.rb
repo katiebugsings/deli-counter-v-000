@@ -10,4 +10,5 @@ puts output
 end
 end
 def take_a_number(katz_deli, person)
+  array.push(person)
 end
