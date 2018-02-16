@@ -18,9 +18,7 @@ def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "There is nobody waiting to be served!"
   else
-    output = "There is nobdy waiting to be served!"
-    katz_deli.each_with_index do |person, index|
-      output<< " #{index-1}. #{ person }"
+    katz_deli.shift
+      
   end
-end
 end
