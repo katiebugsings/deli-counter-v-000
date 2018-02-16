@@ -23,3 +23,4 @@ def now_serving(katz_deli)
       output<< " #{index-1}. #{ person }"
   end
 end
+end
